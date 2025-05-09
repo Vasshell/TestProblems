@@ -28,3 +28,6 @@ for points in pointCoords:
     else:
         print(pointX, pointY)
         print(2)
+
+circleCoords.close()
+pointCoords.close()
