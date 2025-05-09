@@ -5,19 +5,14 @@ def circ_array(length, position):
 # Получение входных данных
 while True:
     try:
-        n = int(input("Array length (n): "))
+        n, m = input("Array length and interval length (n,m): ").split()
+        n = int(n)
+        m = int(m)
     except:
         print("Wrong input!")
     else:
         break
 
-while True:
-    try:
-        m = int(input("Interval length (m): "))
-    except:
-        print("Wrong input!")
-    else:
-        break
 num = 0
 step = 0
 answer = ""
