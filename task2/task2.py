@@ -1,3 +1,4 @@
+#считывание путей к файлам и их открытие
 while True:
     circleFilePath = input("Circle coords file: ")
     pointsFilePath = input("Points coords file: ")
@@ -12,7 +13,7 @@ while True:
         print("Error opening the files and reading coords")
     else:
         break
-
+#расчет для каждой точки по формуле окружности и сравнение с радиусом
 for points in pointCoords:
     pointX, pointY = points.split()
     pointX = float(pointX)
@@ -28,6 +29,6 @@ for points in pointCoords:
     else:
         print(pointX, pointY)
         print(2)
-
+#закрытие файла
 circleCoords.close()
 pointCoords.close()
