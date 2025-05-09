@@ -21,13 +21,10 @@ for points in pointCoords:
     circleEq = (pointX - circleX)**2+(pointY-circleY)**2
     R = circleR ** 2
     if circleEq == R:
-        print(pointX,pointY)
         print(0)
     elif circleEq < R:
-        print(pointX, pointY)
         print(1)
     else:
-        print(pointX, pointY)
         print(2)
 #закрытие файла
 circleCoords.close()

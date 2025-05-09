@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="077a37d8-95f2-474f-b0aa-e54d692cf696" name="Changes" comment="Task3 done">
-      <change afterPath="$PROJECT_DIR$/task4/nums.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4/task4.py" afterDir="false" />
+    <list default="true" id="077a37d8-95f2-474f-b0aa-e54d692cf696" name="Changes" comment="All tasks done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/task3/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/nums.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task4/nums.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +40,9 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.task1.executor": "Run",
-    "Python.task2.executor": "Debug",
+    "Python.task2.executor": "Run",
     "Python.task3.executor": "Run",
-    "Python.task4.executor": "Debug",
+    "Python.task4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -97,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746826974359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="All tasks done">
+      <option name="closed" value="true" />
+      <created>1746832084478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746832084478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,7 +113,8 @@
     <MESSAGE value="Task1 done" />
     <MESSAGE value="Task2 done" />
     <MESSAGE value="Task3 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task3 done" />
+    <MESSAGE value="All tasks done" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tasks done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
