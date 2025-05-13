@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="077a37d8-95f2-474f-b0aa-e54d692cf696" name="Changes" comment="All tasks done">
+    <list default="true" id="077a37d8-95f2-474f-b0aa-e54d692cf696" name="Changes" comment="All tasks done (final polish)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/task1/task1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/task2/task2.py" beforeDir="false" afterPath="$PROJECT_DIR$/task2/task2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task3/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/task3/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task4/nums.txt" beforeDir="false" afterPath="$PROJECT_DIR$/task4/nums.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task3/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/task3/task3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task4/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/task4/task4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +37,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.task1.executor": "Run",
-    "Python.task2.executor": "Run",
-    "Python.task3.executor": "Run",
-    "Python.task4.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -104,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746832084478</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="All tasks done (final polish)">
+      <option name="closed" value="true" />
+      <created>1746832580092</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746832580092</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -114,17 +123,7 @@
     <MESSAGE value="Task2 done" />
     <MESSAGE value="Task3 done" />
     <MESSAGE value="All tasks done" />
-    <option name="LAST_COMMIT_MESSAGE" value="All tasks done" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/task2/task2.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="All tasks done (final polish)" />
+    <option name="LAST_COMMIT_MESSAGE" value="All tasks done (final polish)" />
   </component>
 </project>

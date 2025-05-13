@@ -1,18 +1,15 @@
+import sys
 #считывание путей к файлам и их открытие
-while True:
-    circleFilePath = input("Circle coords file: ")
-    pointsFilePath = input("Points coords file: ")
-    try:
-        circleCoords = open(circleFilePath)
-        pointCoords = open(pointsFilePath)
-        circleX, circleY = circleCoords.readline().split()
-        circleX = float(circleX)
-        circleY = float(circleY)
-        circleR = float(circleCoords.readline())
-    except:
-        print("Error opening the files and reading coords")
-    else:
-        break
+try:
+    circleCoords = open(sys.argv[1])
+    pointCoords = open(sys.argv[2])
+    circleX, circleY = circleCoords.readline().split()
+    circleX = float(circleX)
+    circleY = float(circleY)
+    circleR = float(circleCoords.readline())
+except:
+    print("Error opening the files and reading coords")
+    sys.exit()
 #расчет для каждой точки по формуле окружности и сравнение с радиусом
 for points in pointCoords:
     pointX, pointY = points.split()

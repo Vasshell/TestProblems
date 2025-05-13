@@ -1,17 +1,15 @@
+import sys
 # Возвращает значение массива определенной длины на данной позиции
 def circ_array(length, position):
     return position%length+1
 
 # Получение входных данных
-while True:
-    try:
-        n, m = input("Array length and interval length (n,m): ").split()
-        n = int(n)
-        m = int(m)
-    except:
-        print("Wrong input!")
-    else:
-        break
+try:
+    n = int(sys.argv[1])
+    m = int(sys.argv[2])
+except:
+    print("Wrong input!")
+    sys.exit()
 
 num = 0
 step = 0
